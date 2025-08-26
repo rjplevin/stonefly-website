@@ -1,0 +1,15 @@
+body {
+    background-color: #374667;
+    width: 960px;
+    margin: 0 auto; /* center content horizontally */
+    font-size: 18px;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+p, li, strong, h1, h2 {
+    color: #dddddd;
+}
+
+a {
+    color: LemonChiffon;
+}
