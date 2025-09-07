@@ -29,20 +29,24 @@ body {font-family: "Raleway", sans-serif}
   </div>
   
   <div class="w3-bar w3-white w3-card">
-   <!-- style="text-align:center;margin-left:auto;margin-right:auto;display:block"-->
+    <!-- style="text-align:center;margin-left:auto;margin-right:auto;display:block"-->
+    <!--
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
        href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
+    -->
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
     <a href="#shows" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EVENTS</a>
     <a href="#media" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MUSIC</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
     <a href="#merch" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MERCH</a>
+    <!--
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right">
       <i class="fa fa-search"></i>
     </a>
+    -->
   </div>
 </div>
 
@@ -90,9 +94,9 @@ body {font-family: "Raleway", sans-serif}
   </div>
 
   <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1000px" id="band">
+  <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:1000px" id="band">
     <h2 class="w3-wide">STONEFLY BAND</h2>
-    <div class="half-center-line"><hr/></div>
+    <hr class="half-center"/>
     <p class="w3-justify">Stonefly is a groovy gathering of acoustic merry pranksters with a mix of acoustic and electric instruments playing a blend of roots rock, Americana, folk, and original tunes with sprinklings on the topics of nature, relationships, and fly-fishing.
     <div class="w3-row w3-padding-24">
       <div class="w3-third member-name">
@@ -126,9 +130,42 @@ body {font-family: "Raleway", sans-serif}
   </div>
 
   <!-- The Media Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="media">
+  <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="media">
     <h2 class="w3-wide">Our Music</h2>
-    <div class="half-center-line"><hr/></div>
+    <hr class="half-center"/>
+    <div>
+      <p>Performed live at Oakshire Beer Hall, Portland. August 30, 2025.</p>
+      <p class="w3-opacity w3-center">You Ain't Going Nowhere</p>
+      <audio controls>
+        <source src="audio/01 You Ain't Going Nowhere.m4a" type = "audio/mpeg">
+      </audio>
+      <p class="w3-opacity w3-center">Aime</p>
+      <audio controls>
+        <source src="audio/02 Aime.m4a" type = "audio/mpeg">
+      </audio>
+      <p class="w3-opacity w3-center">Some of Shelly's Blues</p>
+      <audio controls>
+        <source src="audio/03 Some of Shelly's Blues.m4a" type = "audio/mpeg">
+      </audio>
+      <p class="w3-opacity w3-center">That's How I Got To Memphis</p>
+      <audio controls>
+        <source src="audio/04 That's How I Got To Memphis.m4a" type = "audio/mpeg">
+      </audio>
+      <p class="w3-opacity w3-center">Lonely People</p>
+      <audio controls>
+        <source src="audio/05 Lonely People.m4a" type = "audio/mpeg">
+      </audio>
+      <p class="w3-opacity w3-center">Barstool Blues</p>
+      <audio controls>
+        <source src="audio/06 Barstool Blues.m4a" type = "audio/mpeg">
+      </audio>
+      <p class="w3-opacity w3-center">Casey Jones</p>
+      <audio controls>
+        <source src="audio/07 Casey Jones.m4a" type = "audio/mpeg">
+      </audio>
+    </div>
+    
+    <hr class="half-center"/>
     <p>Visit our other sites for more recordings and videos</p>
     <div class="w3-center">
       <a href="https://www.youtube.com/@StoneflyBand" target="_blank"><img src="/images/YouTube.jpg"></a>
@@ -141,9 +178,9 @@ body {font-family: "Raleway", sans-serif}
   
   <!-- The Shows Section -->
   <div class="w3-white" id="shows">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:1000px">
+    <div class="w3-container w3-content w3-padding-32" style="max-width:1000px">
       <h2 class="w3-wide w3-center">Events</h2>
-      <div class="half-center-line"><hr/></div>
+      <hr class="half-center"/>
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-third w3-margin-bottom w3-center">
@@ -173,7 +210,7 @@ body {font-family: "Raleway", sans-serif}
       </div>
       
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-        <div class="w3-third w3-margin-bottom w3-center">
+        <div class="w3-third w3-center">
           <img src="/images/oakshire-beer-hall.png" alt="Oakshire" style="height:80px" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b><a href="https://www.oakbrew.com/" target="_blank">Oakshire Brewing</a></b></p>
@@ -181,7 +218,7 @@ body {font-family: "Raleway", sans-serif}
             <p>5013 NE 42nd Ave<br/>Portland, OR</p>
           </div>
         </div>
-        <div class="w3-third w3-margin-bottom w3-center">
+        <div class="w3-third w3-center">
           <img src="/images/oakshire-beer-hall.png" alt="Oakshire" style="height:80px" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b><a href="https://www.oakbrew.com/" target="_blank">Oakshire Brewing</a></b></p>
@@ -189,9 +226,9 @@ body {font-family: "Raleway", sans-serif}
             <p>5013 NE 42nd Ave<br/>Portland, OR</p>
           </div>
         </div>
-        <div class="w3-third w3-margin-bottom">
+        <div class="w3-third w3-center">
 	  <!--
-          <img src="/images/AlbertaStreetPub.png" alt="Albert Street Pub" style="width:100%" class="w3-hover-opacity">
+          <img src="/images/AlbertaStreetPub.png" alt="Albert Street Pub" style="height:80px" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b><a href="https://www.albertastreetpub.com/" target="_blank">Alberta Street Pub</a></b></p>
             <p class="w3-opacity">Mon 6 Oct 2025<br/>7-9pm, FREE!</p>
@@ -204,30 +241,10 @@ body {font-family: "Raleway", sans-serif}
     
   </div>
 
-  <!-- Ticket Modal -->
-  <div id="ticketModal" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container w3-teal w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('ticketModal').style.display='none'" 
-       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
-      </header>
-      <div class="w3-container">
-        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="How many?">
-        <p><label><i class="fa fa-user"></i> Send To</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="Enter email">
-        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
-      </div>
-    </div>
-  </div>
-  
   <!-- The Contact Section -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+  <div class="w3-container w3-content w3-padding-32" style="max-width:800px" id="contact">
     <h2 class="w3-wide w3-center">CONTACT</h2>
-    <div class="half-center-line"><hr/></div>
+    <hr class="half-center"/>
     <div style="text-align:center;">
       <img src="images/email.jpg" height="20px">
     </div>
@@ -242,16 +259,16 @@ body {font-family: "Raleway", sans-serif}
   </div>
 
   <!-- The Merch Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="merch">
+  <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="merch">
     <h2 class="w3-wide">MERCHANDISE</h2>    
-    <div class="half-center-line"><hr/></div>
+    <hr class="half-center"/>
     <div class="w3-center">
       <br/>
       <b>Stonefly T-Shirts</b><br/>
       <i>COMING SOON!</i>
       <br/>
       <br/>
-      <img src="/images/stonefly-tshirt.png">
+      <img src="/images/stonefly-tshirt.png" height="300px">
     </div>
   </div>
   
@@ -287,7 +304,7 @@ body {font-family: "Raleway", sans-serif}
 <!-- img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%" -->
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+<footer class="w3-container w3-padding-32 w3-center w3-opacity w3-light-grey w3-xlarge">
 <!--
   <i class="fa fa-facebook-official w3-hover-opacity"></i>
   <i class="fa fa-instagram w3-hover-opacity"></i>
