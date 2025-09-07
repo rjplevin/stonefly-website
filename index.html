@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/w3-band.css">
+<link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 
 <!-- From Keith's design -->
@@ -38,8 +39,8 @@ body {font-family: "Raleway", sans-serif}
     -->
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
-    <a href="#shows" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EVENTS</a>
-    <a href="#media" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MUSIC</a>
+    <a href="#events" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EVENTS</a>
+    <a href="#music" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MUSIC</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
     <a href="#merch" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MERCH</a>
     <!--
@@ -52,10 +53,11 @@ body {font-family: "Raleway", sans-serif}
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-  <a href="#shows" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SHOWS</a>
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#events" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EVENTS</a>
+  <a href="#music" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MUSIC</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+  <a href="#merch" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
 </div>
 
 <!-- Page content -->
@@ -96,7 +98,7 @@ body {font-family: "Raleway", sans-serif}
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:1000px" id="band">
     <h2 class="w3-wide">STONEFLY BAND</h2>
-    <hr class="half-center"/>
+    <hr/>
     <p class="w3-justify">Stonefly is a groovy gathering of acoustic merry pranksters with a mix of acoustic and electric instruments playing a blend of roots rock, Americana, folk, and original tunes with sprinklings on the topics of nature, relationships, and fly-fishing.
     <div class="w3-row w3-padding-24">
       <div class="w3-third member-name">
@@ -129,10 +131,10 @@ body {font-family: "Raleway", sans-serif}
     </div>    
   </div>
 
-  <!-- The Media Section -->
-  <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="media">
+  <!-- The Music Section -->
+  <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="music">
     <h2 class="w3-wide">Our Music</h2>
-    <hr class="half-center"/>
+    <hr/>
     <div>
       <p>Performed live at Oakshire Beer Hall, Portland. August 30, 2025.</p>
       <p class="w3-opacity w3-center">You Ain't Going Nowhere</p>
@@ -165,7 +167,7 @@ body {font-family: "Raleway", sans-serif}
       </audio>
     </div>
     
-    <hr class="half-center"/>
+    <hr/>
     <p>Visit our other sites for more recordings and videos</p>
     <div class="w3-center">
       <a href="https://www.youtube.com/@StoneflyBand" target="_blank"><img src="/images/YouTube.jpg"></a>
@@ -176,35 +178,35 @@ body {font-family: "Raleway", sans-serif}
     </div>
   </div>
   
-  <!-- The Shows Section -->
-  <div class="w3-white" id="shows">
+  <!-- The Events Section -->
+  <div class="w3-white" id="events">
     <div class="w3-container w3-content w3-padding-32" style="max-width:1000px">
       <h2 class="w3-wide w3-center">Events</h2>
-      <hr class="half-center"/>
+      <hr/>
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-third w3-margin-bottom w3-center">
           <img src="/images/oakshire-beer-hall.png" alt="Oakshire" style="height:80px;" class="w3-hover-opacity">	  
           <div class="w3-container w3-white">
             <p><b><a href="https://www.oakbrew.com/" target="_blank">Oakshire Brewing</a></b></p>
-            <p class="w3-opacity">Saturday, August 30, 2025<br/>6-8pm, FREE!</p>
-            <p>5013 NE 42nd Ave<br/>Portland, OR</p>
+            <p>Saturday, August 30, 2025<br/>6-8pm, FREE!</p>
+            <p class="w3-opacity">5013 NE 42nd Ave<br/>Portland, OR</p>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom w3-center">
           <img src="/images/electrify-pdx.png" alt="Electrify PDX" style="height:80px;" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b><a href="https://www.electrifyportland.org/" target="_blank">Electrify Portland!</a></b></p>
-            <p class="w3-opacity">Saturday, September 27, 2025<br/>12:30-2:30pm, FREE!</p>
-	    <p>The Redd, 831 SE Salmon St,<br/>Portland, OR</p>
+            <p>Saturday, September 27, 2025<br/>12:30-2:30pm, FREE!</p>
+	    <p class="w3-opacity">The Redd, 831 SE Salmon St<br/>Portland, OR</p>
           </div>
         </div>
         <div class="w3-third w3-margin-bottom w3-center">
           <img src="/images/AlbertaStreetPub.png" alt="Albert Street Pub" style="height:80px;" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b><a href="https://www.albertastreetpub.com/" target="_blank">Alberta Street Pub</a></b></p>
-            <p class="w3-opacity">Monday, October 6, 2025<br/>7-9pm, FREE!</p>
-            <p>1036 NE Alberta Street,<br>Portland, OR</p>
+            <p>Monday, October 6, 2025<br/>7-9pm, FREE!</p>
+            <p class="w3-opacity">1036 NE Alberta Street,<br>Portland, OR</p>
           </div>
         </div>
       </div>
@@ -214,16 +216,16 @@ body {font-family: "Raleway", sans-serif}
           <img src="/images/oakshire-beer-hall.png" alt="Oakshire" style="height:80px" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b><a href="https://www.oakbrew.com/" target="_blank">Oakshire Brewing</a></b></p>
-            <p class="w3-opacity">Sunday, November 23, 2025<br/>5-7pm, FREE!</p>
-            <p>5013 NE 42nd Ave<br/>Portland, OR</p>
+            <p>Sunday, November 23, 2025<br/>5-7pm, FREE!</p>
+            <p class="w3-opacity">5013 NE 42nd Ave<br/>Portland, OR</p>
           </div>
         </div>
         <div class="w3-third w3-center">
           <img src="/images/oakshire-beer-hall.png" alt="Oakshire" style="height:80px" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b><a href="https://www.oakbrew.com/" target="_blank">Oakshire Brewing</a></b></p>
-            <p class="w3-opacity">Sunday, December 28, 2025<br/>5-7pm, FREE!</p>
-            <p>5013 NE 42nd Ave<br/>Portland, OR</p>
+            <p>Sunday, December 28, 2025<br/>5-7pm, FREE!</p>
+            <p class="w3-opacity">5013 NE 42nd Ave<br/>Portland, OR</p>
           </div>
         </div>
         <div class="w3-third w3-center">
@@ -231,8 +233,8 @@ body {font-family: "Raleway", sans-serif}
           <img src="/images/AlbertaStreetPub.png" alt="Albert Street Pub" style="height:80px" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <p><b><a href="https://www.albertastreetpub.com/" target="_blank">Alberta Street Pub</a></b></p>
-            <p class="w3-opacity">Mon 6 Oct 2025<br/>7-9pm, FREE!</p>
-            <p>1036 NE Alberta Street, Portland, OR</p>
+            <p>Mon 6 Oct 2025<br/>7-9pm, FREE!</p>
+            <p class="w3-opacity">1036 NE Alberta Street, Portland, OR</p>
           </div>
 	  -->
         </div>
@@ -244,7 +246,7 @@ body {font-family: "Raleway", sans-serif}
   <!-- The Contact Section -->
   <div class="w3-container w3-content w3-padding-32" style="max-width:800px" id="contact">
     <h2 class="w3-wide w3-center">CONTACT</h2>
-    <hr class="half-center"/>
+    <hr/>
     <div style="text-align:center;">
       <img src="images/email.jpg" height="20px">
     </div>
@@ -259,9 +261,9 @@ body {font-family: "Raleway", sans-serif}
   </div>
 
   <!-- The Merch Section -->
-  <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="merch">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="merch">
     <h2 class="w3-wide">MERCHANDISE</h2>    
-    <hr class="half-center"/>
+    <hr/>
     <div class="w3-center">
       <br/>
       <b>Stonefly T-Shirts</b><br/>
